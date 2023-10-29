@@ -11,7 +11,7 @@ html,body{
 .main{
     height: 600px;
     background-color:#7FBEEC;
-    width: 1366px;
+    width: 1350px;
 }
 
 nav{
@@ -63,4 +63,23 @@ nav li a{
  }
  .txt{
     color: #4A5D9A;
+ }
+ .btn{
+    margin: 85px;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10px;
+ }
+ .pics{
+    display: flex;
+    height: 400px;
+    margin-left: 450px;
+    margin-top: -26%;
+    width: 100%;
+    
+    
+    
+    
+
  }
