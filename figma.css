@@ -12,6 +12,7 @@ html,body{
     height: 600px;
     background-color:#7FBEEC;
     width: 1350px;
+   
 }
 
 nav{
@@ -20,6 +21,7 @@ nav{
     line-height: 75px;
     padding: 0px 100px;
     position: fixed;
+    flex-wrap: wrap;
 }
 
 nav .logo p{
@@ -66,20 +68,63 @@ nav li a{
  }
  .btn{
     margin: 85px;
-    margin-top: 60px;
+    margin-top: 10px;
     text-align: center;
     border-radius: 20px;
-    margin-left: 10px;
+    margin-left: 100px;
  }
  .pics{
     display: flex;
     height: 400px;
     margin-left: 450px;
-    margin-top: -26%;
-    width: 100%;
-    
-    
+    margin-top: -22.5%;  
+ }
+ .wrt{
+    color: #4B4263;
+    margin-top: -130px;
+    margin-left: 100px;   
+ }
+/* .brand{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+} */
+  p{
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px; 
+}
+
+.brand{
+        
+    display: flex;
+    height: 30px;
+    padding:-10px;
+    margin-top: 30px;
+}
+
+.brand img{
+        height: 30px;
+        width: auto;
+}
+
+.brand img:first-child {
+    height: 80px; 
+    width: auto; 
+    margin-top: -25px;   
+}
+
+.brand img:nth-child(6) {
+    height: 70px;  
+    width: auto;   
+    margin-top: -20px;
+}
+
+
+
     
     
 
- }
+
+
