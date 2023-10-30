@@ -11,52 +11,81 @@ html,body{
 .main{
     height: 600px;
     background-color:#7FBEEC;
-    width: 1350px;
-   
+    /* width: 1350px; */
 }
 
-nav{
-    width: 100%;
-    height: 75px;
-    line-height: 75px;
-    padding: 0px 100px;
-    /* position: fixed; */
-    flex-wrap: wrap;
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-nav .logo p{
-    font-style: initial;
-    font-weight: bold;
-    float: left;
-    text-transform: uppercase;
+.navbar{
+    color: white;
+    height: 100px;
 }
-
-nav ul{
-    float: right;
-}
-
-nav li{
-    display: inline-block;
-    list-style: none;
-}
-
-nav li a{
-    font-size: 18px;
-    font-style: unset;
-    padding: 0px 30px;
+.logo{
+    font-size: 15px;
     color: black;
-    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
 }
-.btn{
+ .menu{
+    color: black;
+    font-size: 20px;
+    
+ }
+
+ .login{
+    color: black;
+ }
+ .btn-sign{
+    color: white;
+    background: #5246C8;
+    border-style:hidden;
+    padding: 10px;
+ }
+
+.container{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li{
+   padding: 20px;
+}
+
+.menu-flex{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.login-flex{
+    display: flex;
+}
+
+.login-flex h1{
+    margin-right: 30px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+ 
+ .btn{
     background-color:#5635DD;
     height: 40px;
     width: 100px;
     color: #FAFCFC;
- }
-
- nav li a:hover{
-    color: #ff8c69;
-    transition: all 0.4s ease 0s;
  }
 
  .text{
@@ -76,9 +105,14 @@ nav li a{
  .pics{
     display: flex;
     height: 400px;
-    margin-left: 450px;
-    margin-top: -360px;  
+    margin-left: 600px;
+    margin-top: -382px;  
  }
+
+.pics .img1st{
+    margin-right: -100px;
+}
+
  .wrt{
     color: #4B4263;
     margin-top: -70px;
@@ -87,7 +121,7 @@ nav li a{
 
  .txtn p{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 90px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px; 
 }
@@ -143,8 +177,11 @@ section{
     margin-left: 60px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.section h5{
+.section .yet{
+    font-size: 20px;
+    color: #5D6D7E;
     margin-left:60px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .card-row {
@@ -176,6 +213,36 @@ section{
     
 }
 
+.section3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.track{
+    margin-top: 40px;
+}
+
+.track p{
+    color: #2E23DC;
+    margin-bottom: 10px;
+}
+
+.track h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.track .way{
+    color: #5C6B94;
+    border-bottom: 1px solid  #687B81;
+    padding: 20px;
+}
+
+.check{
+   
+    color: #5C6B94;
+}
 
 
 
