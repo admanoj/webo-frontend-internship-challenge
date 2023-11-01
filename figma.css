@@ -72,6 +72,7 @@ html,body{
 
 .login-flex{
     display: flex;
+    padding: 20px;
 }
 
 .login-flex h1{
@@ -87,6 +88,7 @@ html,body{
     height: 40px;
     width: 100px;
     color: #FAFCFC;
+    border: none;
  }
 
  .text{
@@ -417,10 +419,131 @@ section{
         margin: 0 auto;
         max-width: 100%;
       }
+      .msg_img{
+        display: flex;
+        padding: 80px;
+        margin-top: -40px;
+      }
+            
+        .feq{
+            margin-top: 50px;
+            margin-left: 200px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
 
+      .purple {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        background-color: #3F1DCA ;
+        width: 1100px;
+        height: 200px;
+        margin-left: 150px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .purple .purple-btn{
+        background-color: #F7491F;
+        height: 40px;
+        width: 150px;
+        border:none;
+      }
+    
+  
+      h2 {
+        margin: 0;
+      }
+  
+      button {
+        margin-top: 20px;
 
+      }
 
+       .footer {
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      .aboutUs {
+        display: flex;
+        justify-content: space-between;
+       border-bottom: 1px solid #ccc;
+       margin-bottom: 10px;
+       padding: 20px;
+      }
+  
+      .shakir,.company,.resources, .join {
+        flex: 1;
+        padding: 10px;
+        text-align: center;
+      }
+  
+      .line {
+        width: 1px;
+        background-color: #ccc;
+        margin: 0 20px;
+        height: 100%;
+      }
+  
+      .end {
+        text-align: center;
+        padding: 10px;
+      } 
+      .button-container {
+        display: flex;
+        align-items: center;
+      }
+  
+      .email-button {
+        background: #E5E7E9 ;
+        border: 10px;
+        font-size: 14px;
+        font-style: normal;
+        color: #777; 
+        cursor: pointer;
+        padding: 10px;
+        
+      }
+      .join p{
+        color: #777;
+      }
+  
+      .subscribe-button {
+        background-color: #3F1DCA;
+        color: #fff; 
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        
+      }
+      .shakir p{
+        color: #756DFF;
+      }
+      .company,.resources{
+        color: #191746;
+        text-align: left;
+      }
+     .join h2{
+        color: #191746;
+     }
+     .end{
+        color: #191746;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+     .shakir,.company,.resources, .join h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
 
+    
+      
+  
 
     
     
