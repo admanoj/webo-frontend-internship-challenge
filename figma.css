@@ -52,6 +52,7 @@ html,body{
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    
 }
 
 .menu ul{
@@ -289,6 +290,134 @@ section{
 .credit_card .cre_card{
     height: 400px;
 }
+.article .testimonials{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.test h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.testimonials .orange{
+    margin-right: 180px;
+    height: 50px;
+    margin-top: -50px;
+}
+.design {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .frame {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+
+
+  .card-girl{
+    margin-left: -10px;
+  }
+
+  .card-text {
+    flex: 1;
+  }
+
+  .card-img {
+    margin-left: 20px;
+    height: -5px;
+    }
+  
+    .million{
+        display: flex;
+        height: 150px;
+        background-color: #341DA6;
+        margin-top: 100px;
+        justify-content:space-around
+    }
+
+    .mi-text, .active, .starts, .transaction {
+        text-align: center;
+        padding: 40px;
+        color: white;
+      }
+      .mi-text{
+        border-right: 1px solid black; 
+      }
+
+      .recent{
+        margin-top: 100px;
+      }
+      
+      .recent h1{
+       font-style: normal;
+        margin-left: 100px;
+      }
+
+      .recent_card {
+        display: flex;
+        border: 1px solid whitesmoke;
+        padding: 20px;
+        border-radius: 10px;
+        align-items: center; 
+        margin-top: 20px;
+      }
+  
+      .recent_txt {
+        flex: 1;
+        padding: 10px;
+      }
+  
+      .recent_img {
+        margin-left: 20px;
+      }
+
+      .recent_txt p{
+        font-style:normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      }
+
+      .recent_txt h1{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      .project {
+        display: flex;
+        justify-content: space-around;
+        background-color:#F8F9F9  ;
+        
+       }
+  
+      .men, .sun, .tab {
+        text-align: center;
+        padding: 20px;
+        border: 1px solid whitesmoke ;
+        border-radius: 10px;
+        width: 400px;
+        margin-top: 30px;
+        background-color: white;
+         }
+
+         .men, .sun, .tab p{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+         }
+       .sun img{
+        margin-top: 20px;
+       }
+        .tab h2{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+  
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+
 
 
 
