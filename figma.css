@@ -106,12 +106,12 @@ body {
 .pics {
   display: flex;
   height: 400px;
-  margin-left: 600px;
-  margin-top: -382px;
+  margin-left: 500px;
+  margin-top: -400px;
 }
 
 .pics .img1st {
-  margin-right: -100px;
+  margin-right: -150px;
 }
 
 .wrt {
