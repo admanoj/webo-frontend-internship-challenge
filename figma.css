@@ -285,6 +285,72 @@ section {
 .credit_card .cre_card {
   height: 400px;
 }
+
+.layout-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -40px;
+}
+.layout {
+  background: #6094e0;
+  height: 500px;
+  margin-top: 50px;
+}
+.layout-logo {
+  font-size: 50px;
+  text-align: left;
+}
+.really p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+.among p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+.really {
+  border: 1px solid #ccc;
+  text-align: left;
+  border-radius: 5px;
+  padding: 20px;
+  height: 255px;
+  background: whitesmoke;
+}
+.among {
+  border: 1px solid #ccc;
+  text-align: left;
+  border-radius: 5px;
+  padding: 20px;
+  background: whitesmoke;
+}
+.grid {
+  margin-top: 50px;
+}
+.gird-one {
+  border: 1px solid #ccc;
+  text-align: left;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: whitesmoke;
+}
+.grid-two {
+  border: 1px solid #ccc;
+  text-align: left;
+  border-radius: 5px;
+  padding: 20px;
+  background: whitesmoke;
+}
+
+.feature {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 50px;
+}
+
 .article .testimonials {
   display: flex;
   justify-content: space-between;
@@ -386,7 +452,6 @@ section {
   display: flex;
   justify-content: space-around;
   background-color: #f8f9f9;
-  
 }
 
 .men,
